@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+
+/*
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./BG.png);
+    height: 100%;
+}*/
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.mainheader {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainheader .logo img {
+    width: 250px;
+    height: 90px;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+.mainheader nav {
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainheader nav a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.menubtn {
+    margin-right: 80px;
+}
+
+.search input {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 15px;
+    width: 200px;
+    transition: width ease-in-out 0.5s;
+    padding: 10px;
+    border: 3px solid blue;
+    border-radius: 25px;
+    box-sizing: border-box;
+    height: 35px;
+}
+
+.mainheader button {
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+    border-radius: 10px;
+}
+
+.about-section {
+    background: url(./Team.png) no-repeat left;
+    background-size: 55%;
+    background-color: #f8f8f8fb;
+    overflow: hidden;
+    padding: 210px 0;
+}
+
+.inner-container {
+    width: 50%;
+    float: right;
+    background-color: #1cadd1;
+    padding: 120px;
+}
+
+.inner-container h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1000px) {
+    .inner-container {
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .about-section {
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about-section {
+        padding: 0;
+    }
+    .inner-container {
+        padding: 60px;
+    }
+}

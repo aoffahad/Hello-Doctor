@@ -1,0 +1,79 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+   
+}
+
+nav{
+    width: 100%;
+    height:50px;
+    background-color:rgb(173, 2, 2);
+    color:white;
+    display: flex; /* div k dui pashe niye jay,1st div k left a and 2nd div k right a niye jay*/
+    justify-content: space-between; /* dui div k soman space diye soman durutte soriye rakhe*/
+    align-items: center; /*lekhata majhkhane dekhabe(heightly)*/
+    text-transform: uppercase;
+}
+
+nav .hospital-name{
+    width: 25%;
+    text-align: center;
+}
+nav .menu{
+    width: 50%;
+    display: flex;
+    justify-content:space-around;
+}
+nav .menu a{
+    width: 15%;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+}
+nav .menu a:hover{
+    background-color:gray;
+}
+img{
+    width:100%;
+    height:350px;
+    background-repeat:no-repeat;
+}
+.feature h1{
+    text-align: center;
+    color:rgb(173, 2, 2);
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.card-design{
+    margin:10px;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 20px black;
+    background-color: gainsboro;
+    
+}
+.card-design:hover{
+    box-shadow: 4px 8px 16px black;
+}
+.images-style{
+    width: 100px;
+    height: 60px;
+    padding:10px;
+    border:solid 2px black;
+    border-radius: 100%;
+    margin:10px;
+    background-color:#047F75;
+}
+.card-container{
+    width:100px;
+    height: 150px;
+    display: flex;
+  
+}
+.card-section{
+    text-align:center;
+
+}
+
+
